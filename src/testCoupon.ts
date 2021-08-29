@@ -12,7 +12,6 @@ export const testCoupons = async (
 
     if (coupon) {
       let r = await testCoupon(coupon)
-      console.log('------------------->>-', r)
       onResult(r)
       res.push(r)
     }

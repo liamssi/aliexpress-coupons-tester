@@ -10,7 +10,7 @@ export default [
   {
     input: "src/index.ts",
     treeshake:true, 
-    
+
     output: {   
       //dir: "dist",
       file: "dist/userscript.user.js",
@@ -25,9 +25,9 @@ export default [
 // @match        https://shoppingcart.aliexpress.com/order*
 // @icon         https://www.google.com/s2/favicons?domain=aliexpress.com
 // @grant        none
-// @run-at			 document-end           
+// @run-at			 document-end     
 // @updateURL		 https://github.com/liamssi/aliexpress-coupons-tester/raw/master/dist/userscript.user.js
-// @downloadURL	 https://github.com/liamssi/aliexpress-coupons-tester/raw/master/dist/userscript.user.js
+// @downloadURL	 https://github.com/liamssi/aliexpress-coupons-tester/raw/master/dist/userscript.user.js      
 // ==/UserScript== `,
       
     },

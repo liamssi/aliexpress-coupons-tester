@@ -6,9 +6,10 @@ import { Grid } from 'gridjs'
 import 'gridjs/dist/theme/mermaid.css'
 import Alpine from 'alpinejs'
 
-//window.Alpine = Alpine
+Alpine.start()
+// @ts-ignore:
+window.Alpine = Alpine
 
-//Alpine.start()
 // ==UserScript==
 
 export let init = () => {
