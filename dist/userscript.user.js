@@ -1,11 +1,15 @@
 // ==UserScript==
 // @name         ALIEXPRESS BULK COUPONS TESTER
-// @version      0.1
-// @description  this bulk test coupons
+// @version      1.0.0
+// @description  A bulk coupons tester for AliExpress.
 // @author       BELGHIT ISMAIL (fb.com/belghit.be/)
 // @match        https://shoppingcart.aliexpress.com/order*
 // @icon         https://www.google.com/s2/favicons?domain=aliexpress.com
 // @grant        none
+// @run-at			 document-end           
+// @updateURL		 https://github.com/liamssi/aliexpress-coupons-tester/raw/master/dist/userscript.user.js
+// @downloadURL	 https://github.com/liamssi/aliexpress-coupons-tester/raw/master/dist/userscript.user.js
+/
 // ==/UserScript==
 var aliexpressBulkCoupons = (function (exports) {
     'use strict';
