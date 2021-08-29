@@ -3468,7 +3468,7 @@ Expression: "${expression}"
             columns: ['Coupon', 'Amount', 'Message'],
             pagination: {
                 enabled: true,
-                limit: 6,
+                limit: 10,
             },
             search: true,
             autoWidth: true,
