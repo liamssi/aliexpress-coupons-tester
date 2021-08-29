@@ -8,7 +8,7 @@ import Alpine from 'alpinejs'
 
 //window.Alpine = Alpine
 
-Alpine.start()
+//Alpine.start()
 // ==UserScript==
 
 export let init = () => {
