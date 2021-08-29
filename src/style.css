@@ -1,0 +1,9 @@
+/* scss styles */
+.table-cell {
+  cursor: pointer;
+  position: relative;
+  padding: 5px;
+  &:hover {
+    background-color: #f2f2f2;
+  }
+}
