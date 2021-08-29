@@ -6,6 +6,7 @@ import nested from "postcss-nested";
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 const postcssPresetEnv = require("postcss-preset-env");
 import cssnano from "cssnano";
+var uglify = require("@lopatnov/rollup-plugin-uglify");
 export default [
   {
     input: "src/index.ts",
@@ -46,7 +47,7 @@ export default [
         //extract: true,
         // Or with custom file name, it will generate file relative to bundle.js in v3
         //extract: "bundle.css",
-      }),
+      }),uglify()
     ],
   },
 ];

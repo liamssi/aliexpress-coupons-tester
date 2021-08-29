@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/liamssi/monkyscripts#readme",
   "devDependencies": {
+    "@lopatnov/rollup-plugin-uglify": "^2.1.1",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@rollup/plugin-typescript": "^8.2.1",
     "postcss": "^8.3.4",
