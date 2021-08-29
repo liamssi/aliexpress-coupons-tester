@@ -10,7 +10,7 @@
 // @updateURL		 https://github.com/liamssi/aliexpress-coupons-tester/raw/master/dist/userscript.user.js
 // @downloadURL	 https://github.com/liamssi/aliexpress-coupons-tester/raw/master/dist/userscript.user.js
 /
-// ==/UserScript==
+// ==UserScript==
 var aliexpressBulkCoupons = (function (exports) {
     'use strict';
 
