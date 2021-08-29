@@ -28,8 +28,7 @@ export default [
 // @run-at			 document-end           
 // @updateURL		 https://github.com/liamssi/aliexpress-coupons-tester/raw/master/dist/userscript.user.js
 // @downloadURL	 https://github.com/liamssi/aliexpress-coupons-tester/raw/master/dist/userscript.user.js
-/
-// ==UserScript==`,
+// ==UserScript== `,
       
     },
     plugins: [
