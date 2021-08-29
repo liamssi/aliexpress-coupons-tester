@@ -29,7 +29,6 @@ export default [
       
     },
     plugins: [
-   //   myTest(),
 
       nodeResolve(),
       typescript(),
