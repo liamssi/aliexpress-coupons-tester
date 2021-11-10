@@ -12,6 +12,8 @@ export const testCoupons = async (
 
     if (coupon) {
       let r = await testCoupon(coupon)
+      //throttles a bit
+
       onResult(r)
       res.push(r)
     }
@@ -121,5 +123,9 @@ let parseCouponTestResult = (coupon: string, responce: any) => {
       amount: '0 $',
     }
   }
+
+  setTimeout(() => {
+    console.log('just throttoling a bit ')
+  }, 800)
   return res
 }
